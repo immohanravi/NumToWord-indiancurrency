@@ -1,6 +1,6 @@
 {
   "name": "numtoword-indiancurrency",
-  "version": "1.0.1",
+  "version": "1.0.2",
   "description": "Converts upto 10 digit number to word based on Indian Currency",
   "main": "app.js",
   "scripts": {
@@ -11,9 +11,9 @@
     "url": "git+https://github.com/immohanravi/NumToWord-indiancurrency.git"
   },
   "keywords": [
-    "numtoword",
-    "numbertoword",
-    "indiancurrency"
+    "num to word",
+    "number to word",
+    "indian currency"
   ],
   "author": "Mohan Ravi",
   "license": "MIT",
