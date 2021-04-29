@@ -1,5 +1,5 @@
 const numword = [
-  'Zero',
+  '',
   'One',
   'Two',
   'Three',
@@ -81,9 +81,9 @@ const converttoword = (value, isand) => {
   } else if (len == 5) {
     const s = value.split('')
     if (value % 10000 == 0) {
+        console.log('in modulus')
       answer = more[s[0]] + " Thousand"
     } else {
-
       answer = answer.concat(converttoword(parseInt(value.substring(0, 2)).toString(), isand)) + " Thousand "
       answer = answer.concat(converttoword(parseInt(value.substring(2, 5)).toString(), isand))
     }
@@ -146,10 +146,10 @@ const NumToWord = (input) => {
   if (value.length === 2) {
     let an = converttoword(value[0], false) + " Rupee"
     an = an.concat(' and ' + converttoword(value[1], false) + " Paisa Only")
-    console.log(an.replace(/\s\s/g, ' '))
+    return (an.replace(/\s\s/g, ' '))
   } else {
     let an = converttoword(value[0], true) + " Rupee only"
-    console.log(an.replace(/\s\s/g, ' '))
+    return (an.replace(/\s\s/g, ' '))
   }
 
 }

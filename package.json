@@ -1,6 +1,6 @@
 {
   "name": "numtoword-indiancurrency",
-  "version": "1.0.0",
+  "version": "1.0.1",
   "description": "Converts upto 10 digit number to word based on Indian Currency",
   "main": "app.js",
   "scripts": {
